@@ -182,7 +182,7 @@ export default{
     Child 컴포넌트에서 접근하던 Parent 컴포넌트의 data 속성이 vuex로 갔기 때문에 이제 Child에서는 vuex의 state를 바라보면 된다. 
     이제 Parent와 Child 모두 state를 접근할 수 있게 되었고, 어떤 컴포넌트든 이제 vuex로 counter를 접근할 수 있게 되었다.
 
-[gif첨부]
+![image](img/vuex05.gif)
 
 - child 컴포넌트에도 뷰엑스를 적용시켜준다.
 
