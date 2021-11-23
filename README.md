@@ -1,8 +1,5 @@
 # 💡 vuex 시작하기
 
-## 📝목차
-
-
 ## 1. Vuex와 State
     뷰엑스를 알아보기 위해 버튼으로 숫자를 늘리고 줄일 수 있는 카운터 앱을 통해 
     Vue CLI로 프로젝트를 생성한 다음 아래와 같이 Parent, Child 컴포넌트를 제작한다. 
@@ -181,22 +178,30 @@ export default{
 ![image](img/vuex04.PNG)
 
 #### 📌결과
-    Parent 컴포넌트에서 관리하던 counter 데이터를 뷰엑스의 state에 넘겨주었다.
-    Child 컴포넌트에서 접근하던 Parent 컴포넌트의 data 속성이 vuex로 갔기 때문에 이제 Child에서는 뷰엑스의 state를 바라보면 된다. 
-    이제 Parent와 Child 모두 state를 접근할 수 있게 되었고, 어떤 컴포넌트든 이제 뷰엑스로 counter를 접근할 수 있게 되었다.
+    Parent 컴포넌트에서 관리하던 counter 데이터를 vuex의 state에 넘겨주었다.
+    Child 컴포넌트에서 접근하던 Parent 컴포넌트의 data 속성이 vuex로 갔기 때문에 이제 Child에서는 vuex의 state를 바라보면 된다. 
+    이제 Parent와 Child 모두 state를 접근할 수 있게 되었고, 어떤 컴포넌트든 이제 vuex로 counter를 접근할 수 있게 되었다.
 
+[gif첨부]
 
+- child 컴포넌트에도 뷰엑스를 적용시켜준다.
 
+```vue
+<template>
+<div>
+    <hr>
+    Child counter : {{ $store.state.counter}}<br>
+    <button>+</button>
+    <button>-</button>
+</div>
+</template>
 
+<script>
+export default{
+    // props : ['num']
+}
+</script>
+```
 
-
-
-
-
-
-
-
-
-
-
+![image](img/vuex02-1.gif)
 
