@@ -1,6 +1,6 @@
 # 💡 vuex 시작하기
 
-## 목차
+## 📝목차
 
 
 ## 1. Vuex와 State
@@ -74,7 +74,7 @@
 </script>
 ...
 ```
-![image](img/vuex02.gif)
+![image](img/vuex02-1.gif)
 
 - 버튼을 클릭하면 parent와 child컴포넌트가 함께 변동된다.
 - 상위 컴포넌트에서 하위 컴포넌트에게 props(counter)를 전달하는 기본적인 컴포넌트 통신 방법을 사용했기 때문이다.
