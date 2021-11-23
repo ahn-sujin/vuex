@@ -8,7 +8,8 @@
     Vue CLI로 프로젝트를 생성한 다음 아래와 같이 Parent, Child 컴포넌트를 제작한다. 
 
 ### 1-1. 간단한 Vue App구성
-[이미지 첨부]
+![image](img/vuex01.PNG)
+
 - vue CLI로 원하는 폴더에 프로젝트를 생성하고, 위와 같이 폴더 구조를 만든다.
   - ```App.vue``` : 상위 컴포넌트(Parent)
   - ```child.vue``` : 하위 컴포넌트(Child)
@@ -73,8 +74,7 @@
 </script>
 ...
 ```
-
-[gif 첨부]
+![image](img/vuex02.gif)
 
 - 버튼을 클릭하면 parent와 child컴포넌트가 함께 변동된다.
 - 상위 컴포넌트에서 하위 컴포넌트에게 props(counter)를 전달하는 기본적인 컴포넌트 통신 방법을 사용했기 때문이다.
