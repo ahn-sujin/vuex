@@ -178,7 +178,7 @@ export default{
   - data 속성으로 선언한 counter 값 제거 
   - child 컴포넌트로 counter 전달하지 않음
 
-![image](img/vuex04.png)
+![image](img/vuex04.PNG)
 
 #### 📌결과
     Parent 컴포넌트에서 관리하던 counter 데이터를 뷰엑스의 state에 넘겨주었다.
