@@ -82,7 +82,7 @@
 - 해당 프로젝트 폴더 cmd창을 열어서 ``` npm install vuex ``` 를 입력해 Vuex를 설치한다.
 - Vuex 설치 확인은 ```package.json``` 파일 "dependencies" 에서 할 수 있다.
 
-  [이미지 첨부] 
+  ![image](img/vuex03.PNG)
 
 - vuex를 등록할 자바스크립트 파일을 하나 생성한다.
   > store.js
